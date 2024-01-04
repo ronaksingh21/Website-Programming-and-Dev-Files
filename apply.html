@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="chat.js" defer></script>
+	<script src="validateForm.js" defer></script>
+</head>
+<body>
+    <body>
+        <!-- Container for the header -->
+    <div id="header-container"></div>
+
+    <!-- Include the common.js script -->
+    <script src="header.js"></script>
+	
+	<div class="background-container-application"></div>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="Contact Information" id="label-contact-information">
+				Contact Information
+			</label>
+
+            <h5>Name:</h5>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="Enter your name" />
+
+            <h5>Address:</h5>
+
+            <input type="text"
+				id="address"
+				placeholder="Enter your home address" />
+
+            <h5>E-mail:</h5>
+            <input type="email"
+				id="email"
+				placeholder="Enter your e-mail address" />
+
+
+            <h5>Phone-Number:</h5>
+            <input type="text"
+				id="phone"
+				placeholder="Enter your phone number" />
+
+        
+		</div>
+
+		<div class="form-control">
+			<label for="objective statement" id="label-objective-statement">
+				Objective Statement
+			</label>
+
+            <h5>Briefly explain why you are applying for the position and what you hope to contribute to the travel agency.</h5>
+
+			<input type="text"
+				id="statement"
+				placeholder="Enter your objective statement" />
+		</div>
+
+        <div class="form-control">
+			<label for="professional summary" id="label-professional-summary">
+				Professional Summary
+			</label>
+
+            <h5>Highlight key qualifications and experiences that make you an ideal candidate for the role.</h5>
+
+			<input type="text"
+				id="summary"
+				placeholder="Enter your professional summary" />
+		</div>
+
+
+
+		<div class="form-control">
+			<label for="education" id="label-education">
+				Education
+			</label>
+			
+            <h5>Which option best describes you?</h5>
+			<!-- Dropdown options -->
+			<select name="role" id="role">
+				<option value="student">Student</option>
+				<option value="intern">Intern</option>
+				<option value="professional">Professional</option>
+				<option value="other">Other</option>
+			</select>
+
+            <h5>Degree earned in education</h5>
+            <input type="text"
+				id="degree"
+				placeholder="Your Degree, e.g., Bachelor of Arts in Tourism Management" />
+
+
+            <h5>Institution</h5>
+            <input type="text"
+				id="institution"
+				placeholder="Name of University of College" />
+
+            <h5>Graduation Date</h5>
+            <input type="text"
+				id="date"
+				placeholder="Year of Graduation" />
+
+            <h5>Relevant Coursework (if applicable)</h5>
+            <input type="text"
+                id="date"   
+                placeholder="List any specific coursework relevant to the position, e.g., Travel Planning, Customer Service in Hospitality" />
+
+
+		</div>
+
+        <div class="form-control">
+			<label for="education" id="label-education">
+				Skills, Certifications, Awards, Achievements
+			</label>
+			
+            <h5>Relevant Skills (if applicable)</h5>
+            <input type="text"
+                id="skills"
+                placeholder="List all relevant skills" />
+
+            <h5>Relevant Certifications (if applicable)</h5>
+            <input type="text"
+                id="Certifications"
+                placeholder="List all relevant Certifications" />
+    
+
+            <h5>Relevant Awards and Achievements (if applicable)</h5>
+            <input type="text"
+                id="awards + achievements"
+                placeholder="List all relevant Awards and Achievements" />
+
+		</div>
+
+
+        <div class="form-control">
+			<label for="education" id="label-education">
+				Personal Interests, Cover Letter
+			</label>
+			
+            <h5>Personal Interests</h5>
+            <input type="text"
+                id="interest"
+                placeholder="List relevant personal interests" />
+
+            <h5>Please attach a Cover Letter</h5>
+            <input type="file"
+                id="Certifications"
+                placeholder="List all relevant Certifications" />
+
+		</div>
+
+		<div class="form-control">
+			<label>
+				What position are you applying to?
+			</label>
+
+			<h5 for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Travel Consultant</input>
+            </h5>
+			<h5 for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">Customer Service Representative</input>
+			</h5>
+			<h5 for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">Sales Representative</input>
+			</h5>
+            <h5 for="recommed-4">
+				<input type="radio"
+					id="recommed-4"
+					name="recommed">Travel Coordinator</input>
+			</h5>
+            <h5 for="recommed-5">
+				<input type="radio"
+					id="recommed-5"
+					name="recommed">Digital Marketing Specialist</input>
+			</h5>
+            <h5 for="recommed-6">
+				<input type="radio"
+					id="recommed-6"
+					name="recommed">Technology and Systems Manager</input>
+			</h5>
+            <h5 for="recommed-7">
+				<input type="radio"
+					id="recommed-7"
+					name="recommed">Corporate Travel Consultant</input>
+			</h5>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				Questions/Concerns
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="question" id="question" placeholder="Enter your questions here"></textarea>
+            
+		</div>
+
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">
+			Submit
+		</button>
+	</form>
+
+	<button class="chatbot-toggler">
+		<span class="material-symbols-rounded">mode_comment</span>
+		<span class="material-symbols-outlined">close</span>
+	</button>
+	<div class="chatbot">
+		<header>
+			<h2>TravelGPT</h2>
+			<span class="close-btn material-symbols-outlined">close</span>
+		</header>
+		<ul class="chatbox">
+			<li class="chat incoming">
+				<span class="material-symbols-outlined">smart_toy</span>
+				<p>Hi there, I am your More Travel personal assistant!<br>How can I help you today?</p>
+			</li>
+		</ul>
+		<div class="chat-input">
+			<textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+			<span id="send-btn" class="material-symbols-rounded">send</span>
+		</div>
+	</div>
+
+	<script>
+		// Responsible for alerting the user on whether the application has been submitted or not
+		document.getElementById("form").addEventListener("submit", function(event) {
+			if (!validateForm()) {
+				// Prevent the form from being submitted
+				event.preventDefault();
+	
+				// Displays an error message
+				alert("Please answer all questions before submitting the form.");
+			} else {
+				// Displays a pop-up for successful submission
+				alert("Form submitted successfully! Your application will be reviewed.");
+			}
+		});
+	</script>
+
+</body>
+</html>

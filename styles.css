@@ -1,0 +1,1059 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts and Basic Styling */
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+    color: #333;
+}
+
+body.home-page {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background Image Styles */
+.background-container-careers {
+    margin-top: 65px;
+    position: relative;
+    background: url('main-images/careers.png') top center no-repeat;
+    background-size: 100%; /* Adjust to 'cover', 'auto', '50%', etc. based on your preference */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure that the text overlay doesn't overflow */
+}
+
+.background-container-benefits {
+    margin-top: 65px;
+    position: relative;
+    background: url('main-images/benefits.png') top center no-repeat;
+    background-size: 100%; /* Adjust to 'cover', 'auto', '50%', etc. based on your preference */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure that the text overlay doesn't overflow */
+}
+
+.background-container-culture {
+    margin-top: 65px;
+    position: relative;
+    background: url('main-images/culture.png') top center no-repeat;
+    background-size: 100%; /* Adjust to 'cover', 'auto', '50%', etc. based on your preference */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure that the text overlay doesn't overflow */
+}
+
+.background-container-diversity {
+    margin-top: 65px;
+    position: relative;
+    background: url('main-images/diversity.png') top center no-repeat;
+    background-size: 100%; /* Adjust to 'cover', 'auto', '50%', etc. based on your preference */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure that the text overlay doesn't overflow */
+}
+
+.background-container-flexible-work {
+    margin-top: 65px;
+    position: relative;
+    background: url('main-images/flexible-work.png') top center no-repeat;
+    background-size: 100%; /* Adjust to 'cover', 'auto', '50%', etc. based on your preference */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure that the text overlay doesn't overflow */
+}
+
+.background-container-hiring-tips {
+    margin-top: 65px;
+    position: relative;
+    background: url('main-images/hiring-tips.png') top center no-repeat;
+    background-size: 100%; /* Adjust to 'cover', 'auto', '50%', etc. based on your preference */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure that the text overlay doesn't overflow */
+}
+
+.background-container-internships {
+    margin-top: 65px;
+    position: relative;
+    background: url('main-images/internships.png') top center no-repeat;
+    background-size: 100%; /* Adjust to 'cover', 'auto', '50%', etc. based on your preference */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure that the text overlay doesn't overflow */
+}
+
+.background-container-job-openings {
+    margin-top: 65px;
+    position: relative;
+    background: url('main-images/job-openings.png') top center no-repeat;
+    background-size: 100%; /* Adjust to 'cover', 'auto', '50%', etc. based on your preference */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure that the text overlay doesn't overflow */
+}
+
+.background-container-testimonials {
+    margin-top: 65px;
+    position: relative;
+    background: url('main-images/testimonials.png') top center no-repeat;
+    background-size: 100%; /* Adjust to 'cover', 'auto', '50%', etc. based on your preference */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure that the text overlay doesn't overflow */
+}
+
+.background-container-application {
+    margin-top: 65px;
+    position: relative;
+    background: url('main-images/application.png') top center no-repeat;
+    background-size: 100%; /* Adjust to 'cover', 'auto', '50%', etc. based on your preference */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure that the text overlay doesn't overflow */
+}
+
+/* Style the text on top of the image */
+.background-container h2 {
+    color: #ffffff; /* Text color */
+    font-size: 70px; /* Adjust the font size as needed */
+    /*background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); /* Linear gradient from 70% to 0% opacity */
+    /*background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));*/
+    font-family: Verdana, sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 50%; /* Adjust vertical position */
+    left: 15%; /* Adjust horizontal position */
+    transform: translate(-50%, -50%);
+    
+}
+
+/* Suggestions container styles */
+#suggestions-container {
+    position: absolute;
+    top: 100%; /* Position below the search bar */
+    right: 22%;
+    width: calc(70%); /* Adjust width as needed */
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    display: none; /* Hide by default */
+    margin-left: 100px; /* Adjust as needed */
+}
+
+/* Suggestions list item styles */
+#suggestions-container li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+
+/* Highlight suggestion on hover */
+#suggestions-container li:hover {
+    background-color: #f5f5f5;
+}
+
+/* Header styles */
+#header-container {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+li2.hidden {
+    display: none;
+}
+
+
+
+/* Form container styles */
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form{
+    max-width: 800px; /* Adjust the value as needed */
+    margin-top: 100px auto; /* Center the form horizontally */
+    border-radius: 15px;
+}
+
+/* Form control styles */
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-control input,
+.form-control textarea,
+.form-control select,
+.form-control button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-control textarea {
+    resize: vertical;
+}
+
+/* Radio group styles */
+.radio-group input,
+.radio-group label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.radio-group label {
+    margin-right: 15px;
+}
+
+/* Navigation */
+nav {
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* Set background to transparent */
+    margin-right: 20px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px; /* Adjust padding for smaller buttons */
+    margin: 5px; /* Adjust margin for smaller spacing */
+    border-radius: 4px;
+    background-color: transparent; /* Set background to transparent */
+    transition: background-color 0.3s;
+    font-family: Verdana, sans-serif;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Add a subtle hover effect */
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(222, 219, 219); /* Change this to your desired grey color */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, sans-serif;
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+}
+
+header #company-logo {
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust the font size as needed */
+    font-family: Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 5px 0;
+        display: block;
+    }
+
+    .apply-button {
+        margin-top: 15px;
+    }
+}
+
+/* Sections */
+section {
+    margin: 10px 20px 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.diversity-content section {
+    margin: 0px 0px 0px;
+    padding-top: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.diversity-content section2 {
+    margin: 0px 0px 0px;
+    padding-top: 200px;
+    background-color: #ffffff00;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.diversity-content a.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .diversity-content a.cta-button:hover {
+    background-color: #0056b3;
+  }
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+ul li {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+/* Links */
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.job-item a{
+    padding: 0px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.job-item h3{
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    transition: color 0.3s ease-in-out;
+}
+
+.diversity-content img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.diversity-content h3{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
+.diversity-content p{
+    line-height: 1.6;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+
+.InternshipImage {
+    max-width: 90%;
+    height: auto;
+    display: block; /* Remove any default spacing below the image */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+
+a2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a2:hover {
+    background-color: #ffffff; /* Darker blue on hover */
+    
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent; /* Set background to transparent */
+    color: black;
+    padding: 8px; /* Adjust padding for smaller buttons */
+    border: none;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+/* Dropdown Container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ebebeb88;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    background-color: #ebebeb83;
+    color: black; /* Adjust text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px; /* Adjust font size */
+    font-family: Verdana, sans-serif;
+}
+
+/* Add a subtle hover effect for dropdown items */
+.dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn::after {
+    content: '\25BE'; /* Unicode character for down arrow */
+    margin-left: 5px;
+}
+
+/* Form Styling */
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.form-control input[type="radio"] {
+    display: inline-block;
+    width: auto;
+    margin: 10px
+}
+
+/* Global Styling */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    letter-spacing: 0.5px;
+    height: 80%;
+}
+
+.header-content img {
+    width: 50px;
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 100%;
+}
+
+/* Chatbot Styling */
+.chatbot-toggler {
+    position: fixed;
+    bottom: 30px;
+    right: 35px;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #000000;
+    transition: all 0.2s ease;
+}
+
+body.show-chatbot .chatbot-toggler {
+    transform: rotate(90deg);
+}
+
+.chatbot-toggler span {
+    color: #fff;
+    position: absolute;
+}
+
+.chatbot-toggler span:last-child,
+body.show-chatbot .chatbot-toggler span:first-child {
+    opacity: 0;
+}
+
+body.show-chatbot .chatbot-toggler span:last-child {
+    opacity: 1;
+}
+
+.chatbot {
+    position: fixed;
+    right: 35px;
+    bottom: 90px;
+    width: 420px;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.5);
+    transform-origin: bottom right;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+                0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    transition: all 0.1s ease;
+}
+
+body.show-chatbot .chatbot {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
+
+/* Code for customizing chatbot header */
+.chatbot header {
+    padding: 16px 0;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: #000000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chatbot header span {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    display: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+header h2 {
+    font-size: 1.4rem;
+    margin: 20px;
+    color: #fff;
+    font-family: Verdana, sans-serif;
+}
+
+.chatbot .chatbox {
+    overflow-y: auto;
+    height: 510px;
+    padding: 30px 20px 100px;
+}
+
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 25px;
+}
+
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-thumb {
+    background: #ccc;
+    font-family: Verdana, sans-serif;
+    border-radius: 25px;
+}
+
+.chatbox .chat {
+    display: flex;
+    list-style: none;
+}
+
+.chatbox .outgoing {
+    margin: 20px 0;
+    justify-content: flex-end;
+}
+
+.chatbox .incoming span {
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    line-height: 32px;
+    align-self: flex-end;
+    background: #000000;
+    border-radius: 4px;
+    margin: 0 10px 7px 0;
+}
+
+.chatbox .chat p {
+    white-space: pre-wrap;
+    padding: 12px 16px;
+    border-radius: 10px 10px 0 10px;
+    max-width: 75%;
+    color: #fff;
+    font-size: 0.95rem;
+    background: #000000;
+}
+
+.chatbox .incoming p {
+    border-radius: 10px 10px 10px 0;
+}
+
+.chatbox .chat p.error {
+    color: #721c24;
+    background: #f8d7da;
+}
+
+.chatbox .incoming p {
+    color: #000;
+    background: #f2f2f2;
+}
+
+.chatbot .chat-input {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    padding: 3px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.chat-input textarea {
+    height: 55px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    max-height: 180px;
+    padding: 15px 15px 15px 0;
+    font-size: 0.95rem;
+}
+
+.chat-input span {
+    align-self: flex-end;
+    color: #000000;
+    cursor: pointer;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    font-size: 1.35rem;
+}
+
+.chat-input textarea:valid ~ span {
+    visibility: visible;
+}
+
+@media (max-width: 490px) {
+    .chatbot-toggler {
+        right: 20px;
+        bottom: 20px;
+    }
+    .chatbot {
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        border-radius: 0;
+        width: 100%;
+    }
+    .chatbot .chatbox {
+        height: 90%;
+        padding: 25px 15px 100px;
+    }
+    .chatbot .chat-input {
+        padding: 5px 15px;
+    }
+    .chatbot header span {
+        display: block;
+    }
+}
+
+.apply-button {
+    background-color: #0078d4; /* Blue background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+    background-color: #005a9e; /* Darker blue on hover */
+}
+
+.testimonials {
+    max-width: 1500px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  .testimonial {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .testimonial:hover {
+    transform: scale(1.03);
+  }
+  
+  .testimonial img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonial .name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .testimonial .position {
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .testimonial .quote {
+    font-style: italic;
+    color: #444;
+    line-height: 1.6;
+  }
+
+  h3.diversity{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  h2.diversity{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+  }
+
+  .diversity-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*max-width: 1800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);*/
+  }
+
+  .hiring {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*max-width: 1800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);*/
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  p2 {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  
+  a.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  a.cta-button:hover {
+    background-color: #0056b3;
+  }
+
+  #flexible-work {
+    max-width: 1800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  h2, h3, h5 {
+    color: #333;
+    margin-bottom: 15px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  ul2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  ul3 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .benefits {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.culture {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ 
+}
+
+  
+
+  section#job-openings {
+    background-color: #f8f8f8; /* Set a light background color */
+    padding: 30px; /* Add padding for better spacing */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+  
+li2 {
+    background-color: #fff; /* Set a white background for list items */
+    border: 1px solid #ddd; /* Add a border to separate items */
+    border-radius: 10px; /* Add rounded corners */
+    padding: 20px; /* Add padding for better spacing */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+  section#home-section {
+    background-color: #fff; /* Change the background color to white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.job-item {
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff; /* Change the background color to white */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.job-item:hover {
+    transform: scale(1.05);
+}
+
+
+.job-item img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.search-container {
+    max-width: 500px;
+    margin-top: 200px;
+    margin-left: 130px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    margin-right: auto;
+    
+}
+
+#locationInput {
+    border-radius: 10px;
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 600px) {
+    #locationInput {
+        width: 100%;
+    }
+}
+
+#hiring-tips {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Apply styles to each hiring tip section */
+#hiring-tips h1 {
+    color: #007bff;
+    margin-bottom: 15px;
+    margin-top: 60px;
+    font-size: 35px;
+}
+
+#hiring-tips h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#hiring-tips section {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#hiring-tips ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+#hiring-tips li {
+    margin-bottom: 10px;
+}
+
+/* Apply styles to the footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+    #hiring-tips {
+        padding: 15px;
+    }
+    #job-openings {
+        padding: 20px;
+    }
+    #flexible-work {
+          padding: 20px;
+    }
+}
