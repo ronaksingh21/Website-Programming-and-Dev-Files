@@ -1,12 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
     var headerContent = `
         <!-- header.html content goes here -->
-        <header>
+        <header class="small-header">
             <div class="header-content">
-            <a href="index.html" class="header">
+                <a href="index.html">
                 <img src="more_travel_logo.png" alt="Company Logo" id="company-logo">
                 </a>
-                <h1>MORE TRAVEL</h1>
             </div>
             <nav>
                 <a href="index.html">Home</a>

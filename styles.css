@@ -164,6 +164,7 @@ body.home-page {
     color: #fff;
     padding: 10px;
     text-align: center;
+    font-weight: bold;
     
 }
 
@@ -252,12 +253,7 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.1); /* Add a subtle hover effect */
 }
 
-.header a{
-    padding: 0;
-    background-color: #ffffff00;
-    margin: 0 0 0 0;
 
-}
 
 /* Header */
 header {
@@ -280,6 +276,7 @@ header {
 header .header-content {
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 header #company-logo {
@@ -290,6 +287,21 @@ header h1 {
     margin: 0;
     font-size: 24px; /* Adjust the font size as needed */
     font-family: Verdana, sans-serif;
+}
+
+.small-header {
+    height: 90px; /* Adjust the height as needed */
+}
+
+.small-header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-header nav {
+    display: flex;
+    align-items: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -445,6 +457,7 @@ button {
     border: none;
     font-size: 16px;
     font-family: Verdana, sans-serif;
+    font-weight: bold;
 }
 
 /* Dropdown Container */
@@ -541,10 +554,10 @@ form {
 }
 
 .header-content img {
-    width: 50px;
+    width: 80px;
     vertical-align: middle;
     border-style: none;
-    border-radius: 100%;
+    border-radius: 0%;
 }
 
 /* Chatbot Styling */
