@@ -10,7 +10,7 @@ body {
     font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ebebeb;
+    background-color: #fff5ec;
     color: #333;
 }
 
@@ -133,7 +133,7 @@ body.home-page {
     width: calc(70%); /* Adjust width as needed */
     box-sizing: border-box;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1;
@@ -258,7 +258,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(222, 219, 219); /* Change this to your desired grey color */
+    background-color: #fff5ec; /* Change this to your desired grey color */
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px;
