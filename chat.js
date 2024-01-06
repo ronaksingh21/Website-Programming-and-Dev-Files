@@ -102,6 +102,6 @@
 
     function getApiKey() {
         // Replace "YOUR_ACTUAL_API_KEY" with your OpenAI API key
-        return "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";
+        return "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";
     }
 })();
