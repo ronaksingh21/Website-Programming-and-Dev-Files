@@ -110,6 +110,6 @@
     
         // Function to get the OpenAI API key (replace with your actual key)
         function getApiKey() {
-            return "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";
+            return "";
         }
     })();

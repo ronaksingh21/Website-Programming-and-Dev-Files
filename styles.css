@@ -25,7 +25,7 @@ body.home-page {
     position: relative;
     background: url('main-images/careers.png') top center no-repeat;
     background-size: 100%; /* Adjust to 'cover', 'auto', '50%', etc. based on your preference */
-    height: 400px; /* Adjust the height as needed */
+    height: 360px; /* Adjust the height as needed */
     overflow: hidden; /* Ensure that the text overlay doesn't overflow */
 }
 
@@ -791,7 +791,7 @@ header h2 {
 
 .testimonials {
     max-width: 1500px;
-    margin: 100px auto;
+    margin: 10px auto;
     text-align: center;
   }
   
@@ -857,7 +857,10 @@ header h2 {
 
   .hiring {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10%;
+    margin-right: 10%;
+    
     /*max-width: 1800px;
     margin: 30px auto;
     padding: 30px;
@@ -865,6 +868,16 @@ header h2 {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);*/
   }
+
+
+  .hiring section{
+
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 5%;
+    background-color: white;
+  }
+
   
   p {
     line-height: 1.6;
@@ -987,6 +1000,7 @@ li2 {
 .job-item img {
     margin: 0;
     width: 100%;
+    border-radius: 5%;
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
@@ -1041,8 +1055,10 @@ li2 {
 
 #hiring-tips section {
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
 }
+
 
 #hiring-tips ul {
     list-style: none;
