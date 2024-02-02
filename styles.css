@@ -959,10 +959,10 @@ header h2 {
 
   
 
-  section#job-openings {
+section#job-openings {
     margin-top: 0px;
     background-color: #f8f8f8; /* Set a light background color */
-    padding: 30px; /* Add padding for better spacing */
+    padding: 0px; /* Add padding for better spacing */
     border-radius: 8px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
 }
