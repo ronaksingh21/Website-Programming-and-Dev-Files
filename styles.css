@@ -88,7 +88,7 @@ body.home-page {
     position: relative;
     background: url('main-images/job-openings.png') top center no-repeat;
     background-size: 100%; /* Adjust to 'cover', 'auto', '50%', etc. based on your preference */
-    height: 275px; /* Adjust the height as needed */
+    height: 200px; /* Adjust the height as needed */
     overflow: hidden; /* Ensure that the text overlay doesn't overflow */
 }
 
